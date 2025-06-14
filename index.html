@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="formLogin">
+            <input type="text" id="usuario" placeholder="Usuário">
+            <input type="password" id="senha" placeholder="Senha">
+            <button id="entrar" type="button">Entrar</button>
+        </form>
+    </div>
+
+
+
+    <script>
+        document.getElementById('entrar').addEventListener('click', function () {
+            window.location.href = "mapa.html";
+        })
+    </script>
+</body>
+
+</html>

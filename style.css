@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+   background-image: url(img/Gemini_Generated_Image_eyiecteyiecteyie.png);
+}
+
+h1 {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#mapa {
+  height: 90vh;
+  width: 100%;
+}
+
+#filtroCrimes {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.filtroBar{
+  background-color: #333;
+}
+
+
+.login-container {
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: whitesmoke;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  display: block;
+  width: 92%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.login-container button:hover {
+  background-color: #555;
+}
