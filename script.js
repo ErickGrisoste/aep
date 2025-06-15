@@ -6,6 +6,10 @@ const layer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 //os dados coletados dos boletim de ocorrêncoa em formato JSON
 const crimes = [
+  { tipo: 'Roubo', local: [-23.413495, -51.943325], gravidade: 'Alta'},
+  { tipo: 'Furto', local: [-23.443211, -51.928683], gravidade: 'Média'},
+  { tipo: 'Agressão', local: [-23.441978, -51.917541], gravidade: 'Alta'},
+  { tipo: 'Furto', local: [-23.438358, -51.922686], gravidade: 'Baixa'},
   { tipo: 'Furto', local: [-23.4235, -51.9332], gravidade: 'Média' },
   { tipo: 'Roubo', local: [-23.4260, -51.9200], gravidade: 'Alta' },
   { tipo: 'Agressão', local: [-23.4300, -51.9400], gravidade: 'Baixa' },
